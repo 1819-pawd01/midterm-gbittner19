@@ -1,0 +1,42 @@
+/*
+* Grace Bittner
+* October 29
+* Project02
+*/
+
+/* The universal selector */
+
+* {}
+
+/* Body attributes here */
+
+body {
+    background-color: beige;
+    color: black;
+    font-family: serif;
+}
+
+a:link {
+    color: coral;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active {
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: darkmagenta;
+    text-decoration: none;
+}
+
+img {
+    height: 200px;
+}

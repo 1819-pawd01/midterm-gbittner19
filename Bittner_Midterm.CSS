@@ -1,0 +1,145 @@
+/*
+* Grace Bittner
+* Due
+* Midterm Project
+*/
+
+/* The universal selector */
+
+* {}
+
+/* Body attributes here */
+
+body {
+    background-color: lightpink;
+    color: black;
+}
+
+/*Pseudo-Class Styles*/
+a:link {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active {
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: darkmagenta;
+    text-decoration: none;
+}
+
+/*Type Selectors*/
+img {
+    height: 300px;
+}
+
+body {
+    font-family: sans-serif, "Arial", "Verdana";
+    background-color: lightpink;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+h4 {
+    font-variant: small-caps;
+    font-size: 110%;
+    color: aliceblue
+}
+
+h2 {
+    color: blueviolet;
+}
+
+dt {
+    font-style: italic;
+}
+
+h1 {
+    text-transform: overline;
+    text-transform: underline;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    color: black;
+    background-color: aliceblue
+}
+
+tr:hover {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+tmain {
+    color: dodgerblue;
+}
+
+tfoot {
+    color: black;
+}
+
+footer {
+    font-size: 90%;
+}
+
+/*ID Selectors*/
+#PN {
+    background-color: cornsilk;
+}
+
+#PV {
+    background-color: lightgray;
+}
+
+#PD {
+    background-color: cornflowerblue;
+}
+
+/*Class Selectors*/
+.AN {
+    background-color: antiquewhite;
+}
+
+.AV {
+    background-color: lemonchiffon;
+}
+
+.AD {
+    background-color: azure;
+}
+
+.EN {
+    background-color: lightcoral;
+}
+
+.ED {
+    background-color: lightgray;
+}
+
+.EE {
+    background-color: aquamarine;
+}

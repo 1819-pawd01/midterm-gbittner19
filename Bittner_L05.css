@@ -1,0 +1,23 @@
+/*
+* Grace Bittner
+* Due Date
+* Lab 5
+*/
+
+/* The universal selector */
+
+* { 
+
+}
+
+/* Body attributes here */
+
+body { 
+    background-color: floralwhite; 
+    font-family: cursive
+   
+} 
+img{ 
+height: 300px
+width: 75% 
+}

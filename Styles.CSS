@@ -1,0 +1,41 @@
+/*
+* Grace Bittner
+* November 20
+* Lab08
+*/
+
+/* The universal selector */
+
+* {}
+
+/* Body attributes here */
+
+body {
+    font-family: sans-serif, "Arial", "Verdana";
+    background-color: lightpink;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+h2 {
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+p {
+    text-indent: 75px;
+}
+
+a {
+    text-transform: overline;
+    text-transform: underline;
+}
+
+footer {
+    font-size: 150%;
+}

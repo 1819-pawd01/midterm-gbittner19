@@ -1,0 +1,39 @@
+/*
+* Grace Bittner
+* November 12
+* Project 03
+*/
+
+/* The universal selector */
+
+* {}
+
+/* Body attributes here */
+
+body {}
+
+table,
+th,
+td {
+    border: 2px solid purple;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    color: darkgrey;     
+}
+tr:hover{
+    background-color: blanchedalmond;
+    color:black;
+    }
+
+tmain {
+    color: dodgerblue;
+}
+
+tfoot {
+    color: darkgrey;
+}

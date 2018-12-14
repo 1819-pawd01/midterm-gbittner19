@@ -1,0 +1,92 @@
+/*
+* Grace Bittner
+* November 13
+* Lab07
+*/
+
+/* The universal selector */
+
+* {}
+
+/* Body attributes here */
+
+body {}
+
+table,
+th,
+td {
+    border: 2px solid purple;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    color: darkgrey;
+}
+
+tr:hover {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+tmain {
+    color: dodgerblue;
+}
+
+.ComparativeReligion {
+    background-color: plum;
+}
+
+.HonStatistics {
+    background-color: lightskyblue
+}
+
+.StudyHall {
+    background-color: lightpink
+}
+
+.Literature {
+    background-color: lightcyan
+}
+
+.WebpageDesign {
+    background-color: lightyellow
+}
+
+.HonPrecalculus {
+    background-color: lightgreen
+}
+
+.Government {
+    background-color: lightgray
+}
+
+.HonSpanish4 {
+    background-color: lightcoral
+}
+
+.freetime {
+    background-color: lightsteelblue
+}
+
+tfoot {
+    color: darkgrey;
+}
+
+header {
+    font-family: cursive;
+}
+
+main {
+    font-family: fantasy;
+}
+
+footer {
+    font-family: serif;
+}
+
+#after {
+    border: 2px solid pink
+}

@@ -1,0 +1,38 @@
+/*
+* Grace Bittner
+* Due Date
+* First Project
+*/
+
+/* The universal selector */
+
+* {}
+
+/* Body attributes here */
+
+body {
+    background-color: aliceblue;
+    color: darkmagenta;
+    font-family: fantasy;
+}
+
+a:link {
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active {
+    color:coral;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: darkmagenta;
+    text-decoration: none;
+}
