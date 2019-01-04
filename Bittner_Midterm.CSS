@@ -6,7 +6,10 @@
 
 /* The universal selector */
 
-* {}
+* {padding:o; 
+    margin:5px 10px 1px 10px;
+      
+}
 
 /* Body attributes here */
 
